@@ -2,10 +2,10 @@ import schedule
 import time
 
 def job():
-    print("Job is running at 6 AM")
+    print("Job is running at 11 AM")
 
 # Schedule the job to run every day at 6 AM
-schedule.every(1).day.at("18:21").do(job)
+schedule.every(1).day.at("11:00").do(job)
 
 try:
     while True:
