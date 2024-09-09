@@ -16,4 +16,13 @@ else:
 #
 for i in range(10,0,-5):
     print("hello")
-    
+
+#
+import passpy
+a=11
+if a>9:
+    print("True")
+elif a==11:
+    print("False")
+else:
+    print("False")
